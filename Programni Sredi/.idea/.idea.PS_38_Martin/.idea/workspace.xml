@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f53b7d6-9892-4c4a-951d-0973b10a7922" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PS_38_Martin" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/StudentInfoSystem/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StudentInfoSystem/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UserLogin/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StudentInfoSystem/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StudentInfoSystem/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/4c/b1453b3d/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UserLogin/LoginValidation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UserLogin/UserData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AECFB6F-6EE1-4BB3-9CEC-F864D8D0E1D7/68/86898d04/DateTimeParse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StudentInfoSystem/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StudentInfoSystem/StudentData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UserLogin/Logger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UserLogin/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AECFB6F-6EE1-4BB3-9CEC-F864D8D0E1D7/24/a85844ce/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StudentInfoSystem/StudentValidation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UserLogin/UserRoles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp1/MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WPFhello/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WPFhello/App.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UserLogin/ValidateUserInput.cs" />
+        <option value="$PROJECT_DIR$/UserLogin/UserRoles.cs" />
+        <option value="$PROJECT_DIR$/UserLogin/User.cs" />
+        <option value="$PROJECT_DIR$/UserLogin/LoginValidation.cs" />
+        <option value="$PROJECT_DIR$/UserLogin/UserData.cs" />
+        <option value="$PROJECT_DIR$/UserLogin/Program.cs" />
+        <option value="$PROJECT_DIR$/UserLogin/Logger.cs" />
+        <option value="$PROJECT_DIR$/StudentInfoSystem/StudentData.cs" />
+        <option value="$PROJECT_DIR$/StudentInfoSystem/Student.cs" />
+        <option value="$PROJECT_DIR$/StudentInfoSystem/StudentValidation.cs" />
+        <option value="$PROJECT_DIR$/StudentInfoSystem/MainWindow.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YDD1XEh9x3MEATNaVCfml30NcQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected=".NET Project.StudentInfoSystem">
+    <configuration name="StudentInfoSystem" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/StudentInfoSystem/bin/Debug/StudentInfoSystem.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudentInfoSystem/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/StudentInfoSystem/StudentInfoSystem.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLogin" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/UserLogin/UserLogin.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.StudentInfoSystem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f53b7d6-9892-4c4a-951d-0973b10a7922" name="Default Changelist" comment="" />
+      <created>1582468056955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582468056955</updated>
+      <workItem from="1582468058751" duration="14673000" />
+      <workItem from="1582615274170" duration="2210000" />
+      <workItem from="1582726977285" duration="22474000" />
+      <workItem from="1582789655231" duration="7853000" />
+      <workItem from="1583674545089" duration="13425000" />
+      <workItem from="1586175163459" duration="318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state width="886" height="148" key="DebuggerActiveHint" timestamp="1582815384947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="886" height="148" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1582815384947" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1586175506298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586175506298" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1586175506298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586175506298" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1586175506298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586175506298" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1586175506298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586175506298" />
+    <state width="1493" height="282" key="GridCell.Tab.1.bottom" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.1.center" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.1.left" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.1.right" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.2.bottom" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.2.center" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.2.left" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.2.right" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.3.bottom" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.3.center" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.3.left" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.3.right" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.4.bottom" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.4.center" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.4.left" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state width="1493" height="282" key="GridCell.Tab.4.right" timestamp="1583706649645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1583706649645" />
+    <state x="722" y="112" key="Rider.ProjectTemplateDialog.Size" timestamp="1583704762864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="112" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1583704762864" />
+    <state x="863" y="97" key="RiderGenerateDialog" timestamp="1582745163696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="863" y="97" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1582745163696" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1582813455091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1582813455091" />
+    <state x="450" y="10" width="636" height="804" key="find.popup" timestamp="1582817463548">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="450" y="10" width="636" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582817463548" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/UserLogin/UserData.cs</url>
+          <line>58</line>
+          <properties documentPath="$PROJECT_DIR$/UserLogin/UserData.cs" initialLine="49">
+            <startOffsets>
+              <option value="1780" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1808" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/UserLogin/Program.cs</url>
+          <line>106</line>
+          <properties documentPath="$PROJECT_DIR$/UserLogin/Program.cs" initialLine="106">
+            <startOffsets>
+              <option value="3788" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3812" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/UserLogin/Program.cs</url>
+          <line>105</line>
+          <properties documentPath="$PROJECT_DIR$/UserLogin/Program.cs" initialLine="105">
+            <startOffsets>
+              <option value="3711" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3758" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\crazy\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\crazy\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_PS_38_Martin.965075134.00" t="ExcludeRecursive" />
+    <e p="E:\PS\PS_38_Martin" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PS_38_Martin.sln" t="IncludeFlat" />
+      <e p="StudentInfoSystem" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Login.xaml" t="Include" />
+        <e p="Login.xaml.cs" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="Login.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="Student.cs" t="Include" />
+        <e p="StudentData.cs" t="Include" />
+        <e p="StudentInfoSystem.csproj" t="IncludeRecursive" />
+        <e p="StudentValidation.cs" t="Include" />
+      </e>
+      <e p="UserLogin" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Logger.cs" t="Include" />
+        <e p="LoginValidation.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="User.cs" t="Include" />
+        <e p="UserData.cs" t="Include" />
+        <e p="UserLogin.csproj" t="IncludeRecursive" />
+        <e p="UserRoles.cs" t="Include" />
+      </e>
+      <e p="WPFhello" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="WPFhello.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
