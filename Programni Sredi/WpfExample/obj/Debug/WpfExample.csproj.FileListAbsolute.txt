@@ -1,0 +1,16 @@
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample.csprojAssemblyReference.cache
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\App.g.cs
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample_MarkupCompile.cache
+E:\PS\PS_38_Martin\WpfExample\bin\Debug\WpfExample.exe.config
+E:\PS\PS_38_Martin\WpfExample\bin\Debug\WpfExample.exe
+E:\PS\PS_38_Martin\WpfExample\bin\Debug\WpfExample.pdb
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\MainWindowView.g.cs
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample_MarkupCompile.lref
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\MainWindowView.baml
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample.g.resources
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample.Properties.Resources.resources
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample.csproj.GenerateResource.cache
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample.csproj.CoreCompileInputs.cache
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample.exe
+E:\PS\PS_38_Martin\WpfExample\obj\Debug\WpfExample.pdb
