@@ -13,14 +13,14 @@ namespace StudentInfoSystem
         public string degree { get; set; }
         public string status { get; set; }
         public string facNumber { get; set; }
-        public string course { get; set; }
-        public string potok { get; set; }
-        public string group { get; set; }
+        public int course { get; set; }
+        public int potok { get; set; }
+        public int group { get; set; }
 
 
         public Student() { }
 
-        public Student(string firstName, string surName, string lastName, string faculty, string specialization, string degree, string status, string facNumber, string course, string potok, string group)
+        public Student(string firstName, string surName, string lastName, string faculty, string specialization, string degree, string status, string facNumber, int course, int potok, int group)
         {
             this.firstName = firstName;
             this.surName = surName;

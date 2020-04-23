@@ -32,15 +32,21 @@ namespace StudentInfoSystem
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            LoginValidation lv = new LoginValidation(txtUsername.Text, txtPassword.Text, printError);
+            LoginValidation loginValidation = new LoginValidation(txtUsername.Text, txtPassword.Text, printError);
 
             User user = new User();
 
-            if (lv.ValidateUserInput(ref user))
+            if (loginValidation.ValidateUserInput(ref user))
             {
-                MainWindow anotherWindow = new MainWindow();
+                /*MainWindow anotherWindow = new MainWindow();
                 anotherWindow.Show();
-                Hide();
+                Hide();*/
+                Student student = StudentValidation.GetStudentDataByUser(user);
+                MainWindow mainWindow = new MainWindow();
+                MainWindowVM mwVM = new MainWindowVM(student, mainWindow);
+                mainWindow.DataContext = mwVM;
+                mainWindow.Show();
+                this.Close();
             }
             else
             {

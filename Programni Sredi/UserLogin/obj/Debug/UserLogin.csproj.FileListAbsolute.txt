@@ -3,3 +3,4 @@ E:\PS\PS_38_Martin\UserLogin\bin\Debug\UserLogin.pdb
 E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.csprojAssemblyReference.cache
 E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.exe
 E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.pdb
+E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.csproj.CoreCompileInputs.cache

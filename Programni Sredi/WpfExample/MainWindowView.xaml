@@ -23,6 +23,9 @@
                 Command="{Binding HiButtonCommand}" CommandParameter="Здрасти!" />
         <Button Width="100" Height="100" Content="Toggle Click" Grid.Column="1"
                 Command="{Binding ToggleExecuteCommand}"/>
-        
+
+        <TextBox  Width="225" Height="50" Grid.Column="0" Text="{Binding GreetingText}" VerticalAlignment="Bottom" />
+        <TextBox  Width="225" Height="50" Grid.Column="1" Text="{Binding DateText}" VerticalAlignment="Bottom" />
+
     </Grid>
 </Window>

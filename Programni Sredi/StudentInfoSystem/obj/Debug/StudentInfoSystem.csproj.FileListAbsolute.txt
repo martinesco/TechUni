@@ -17,3 +17,4 @@ E:\PS\PS_38_Martin\StudentInfoSystem\bin\Debug\UserLogin.pdb
 E:\PS\PS_38_Martin\StudentInfoSystem\obj\Debug\StudentInfoSystem.csproj.CopyComplete
 E:\PS\PS_38_Martin\StudentInfoSystem\obj\Debug\Login.g.cs
 E:\PS\PS_38_Martin\StudentInfoSystem\obj\Debug\Login.baml
+E:\PS\PS_38_Martin\StudentInfoSystem\obj\Debug\StudentInfoSystem.csproj.CoreCompileInputs.cache

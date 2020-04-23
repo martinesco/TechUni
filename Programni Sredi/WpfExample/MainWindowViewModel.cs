@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,7 +8,7 @@ using System.Windows.Input;
 
 namespace WpfExample
 {
-    public class MainWindowViewModel
+    public class MainWindowViewModel : INotifyPropertyChanged
     {
        /* public string ButtonContent
         {
@@ -18,9 +19,31 @@ namespace WpfExample
         }*/
 
         private ICommand hiButtonCommand;
-        private ICommand toggleExecuteCommand
-        { get; set; }
+        private ICommand toggleExecuteCommand { get; set; }
         private bool canExecute = true;
+
+        private string greetingText = "";
+        private string dateText = "";
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void OnPropertyChanged(String property)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(property));
+            }
+        }
+        public string GreetingText
+        {
+            get { return this.greetingText; }
+            set { this.greetingText = value; OnPropertyChanged("GreetingText"); }
+        }
+
+        public string DateText
+        {
+            get { return this.dateText; }
+            set { this.dateText = value; OnPropertyChanged("DateText"); }
+        }
         public string HiButtonContent
         {
             get { return "click to hi"; }
@@ -57,7 +80,8 @@ namespace WpfExample
         public void ShowMessage(object obj)
         {
             //it is good we do this with binding to some control
-            System.Windows.MessageBox.Show(obj.ToString());
+            this.GreetingText = "Здрасти!";
+            this.DateText = DateTime.Now.ToLongTimeString();
         }
         public void ChangeCanExecute(object obj)
         {
