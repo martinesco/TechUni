@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace UserLogin
 {
@@ -54,8 +59,9 @@ namespace UserLogin
                 currentUserRole = UserRoles.ANONYMOUS;
                 return false;
             }
-
+////////////////////////////////////////////////////////////////////////////////////
             user = UserData.IsUserPassCorrect(_username, _password);
+
             if (user==null){
                 
                 _errorMessage="Nqma potrebitel s takova ime i parola!";
@@ -63,18 +69,18 @@ namespace UserLogin
                 currentUserRole = UserRoles.ANONYMOUS;
                 return false;
             }
-            currentUserRole = (UserRoles) user.role;
-
+//////////////////////////////////////////////////////////////////////////////////////////////
             currentUserRole = (UserRoles) user.role;
             currentUserUsername = (string) user.userName;
             
             Logger.LogActivity("Successful Login");
             
 
-            if (DateTime.Compare(user.isActive, DateTime.Now) < 0)
+
+           /* if (DateTime.Compare(user.isActive, DateTime.Now) < 0)
             {
                 Logger.LogActivity("The user is INACTIVE");
-            }
+            }*/
             
             
             return true;
@@ -82,7 +88,7 @@ namespace UserLogin
 
         public bool isUserActiv()
         {
-            foreach (User user in UserData.TestUser)
+            foreach (User user in UserData.TestUsers)
             {
                 
             }
@@ -110,7 +116,38 @@ namespace UserLogin
             {
             }
         }
-        
-        
+
+
+        public static bool CountFailedLog()
+        {
+            List<string> failed = Logger.ReadFile().Where(line => line.Contains("Fail")).Reverse().ToList();
+
+            if (failed.Count() < 3)
+            {
+                return false;
+            }
+
+            DateTime now = DateTime.Now;
+
+            List<string> first = failed[0].Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            string firstDate = first[first.Count() - 1];
+
+            TimeSpan diff = new TimeSpan(Math.Abs(now.Subtract(DateTime.Parse(firstDate)).Ticks));
+            if (diff.TotalMinutes > 3)
+            {
+                return false;
+            }
+
+            List<string> last = failed[2].Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            string lastDate = last[last.Count() - 1];
+
+            TimeSpan difference = new TimeSpan(Math.Abs(DateTime.Parse(firstDate).Subtract(DateTime.Parse(lastDate)).Ticks));
+            if (difference.TotalMinutes <= 3)
+            {
+                return true;
+            }
+            return false;
+        }
+
     }
 }

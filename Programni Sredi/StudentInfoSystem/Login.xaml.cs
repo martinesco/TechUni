@@ -32,7 +32,9 @@ namespace StudentInfoSystem
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            LoginValidation loginValidation = new LoginValidation(txtUsername.Text, txtPassword.Text, printError);
+            //   UserLogin.UserData.ResetTestUserData();
+
+            LoginValidation loginValidation = new LoginValidation(txtUsername.Text, txtPassword.Password, printError);
 
             User user = new User();
 
@@ -50,9 +52,15 @@ namespace StudentInfoSystem
             }
             else
             {
-                MessageBox.Show("Invalid data");
+                MessageBox.Show("Neshto nevalidno vavede ti!");
+                TextBox usernameBox = txtUsername;
+                usernameBox.Clear();
+                PasswordBox passwordBox = txtPassword;
+                passwordBox.Clear();
+
+                /*MessageBox.Show("Invalid data");
                 txtUsername.Clear();
-                txtPassword.Clear();
+                txtPassword.Clear();*/
             }
         }
     }

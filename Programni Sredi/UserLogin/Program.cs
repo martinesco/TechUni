@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 
@@ -13,6 +14,8 @@ namespace UserLogin
         
         public static void Main(string[] args)
         {
+            //List<User> users = UserData.TestUsers();
+
             Console.WriteLine("Enter username and password");
             string username = Console.ReadLine();
             string password = Console.ReadLine();
@@ -88,14 +91,14 @@ namespace UserLogin
                         
                         UserData.SetUserActiveTo(name,dateTime);
 
-                        foreach (User user in UserData.TestUser)
+                        foreach (User user in UserData.TestUsers)
                         {
                             Console.WriteLine(user.ToString());
                         }
                         
                         break;
                     case 3:
-                        foreach (User user in UserData.TestUser)
+                        foreach (User user in UserData.TestUsers)
                         {
                             Console.WriteLine(user.ToString());
                         }

@@ -5,6 +5,8 @@ namespace StudentInfoSystem
 {
     public class Student
     {
+
+        public int StudentId { get; set; }
         public string firstName { get; set; }
         public string surName { get; set; }
         public string lastName { get; set; }

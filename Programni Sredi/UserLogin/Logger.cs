@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace UserLogin
@@ -37,6 +38,19 @@ namespace UserLogin
             }
             Console.WriteLine(stringBuilder.ToString().Trim());
             //throw new NotImplementedException();
+        }
+
+        static public List<string> ReadFile()
+        {
+            StringBuilder sb = new StringBuilder();
+            string[] lines = File.ReadAllLines("test.txt");
+            foreach (string line in lines)
+            {
+                sb.Append(line + " \n");
+            }
+
+            List<string> loggs = sb.ToString().Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            return loggs;
         }
     }
 }

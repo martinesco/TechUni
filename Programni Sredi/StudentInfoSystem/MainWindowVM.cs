@@ -49,7 +49,7 @@ namespace StudentInfoSystem
             element.txtFaculty.Text = Student.faculty;
             element.txtSpecialization.Text = Student.specialization;
             element.txtDegree.Text = Student.degree;
-            element.txtStatus.Text = Student.status;
+            element.txtStatus.ItemsSource = element.StudStatusChoices;
             element.txtCourse.Text = Student.course.ToString();
             element.txtPotok.Text = Student.potok.ToString();
             element.txtGroup.Text = Student.group.ToString();

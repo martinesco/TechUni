@@ -4,3 +4,9 @@ E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.csprojAssemblyReference.cache
 E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.exe
 E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.pdb
 E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.csproj.CoreCompileInputs.cache
+E:\PS\PS_38_Martin\UserLogin\bin\Debug\UserLogin.exe.config
+E:\PS\PS_38_Martin\UserLogin\bin\Debug\EntityFramework.dll
+E:\PS\PS_38_Martin\UserLogin\bin\Debug\EntityFramework.SqlServer.dll
+E:\PS\PS_38_Martin\UserLogin\bin\Debug\EntityFramework.xml
+E:\PS\PS_38_Martin\UserLogin\bin\Debug\EntityFramework.SqlServer.xml
+E:\PS\PS_38_Martin\UserLogin\obj\Debug\UserLogin.csproj.CopyComplete

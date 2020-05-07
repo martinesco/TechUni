@@ -4,12 +4,15 @@ namespace UserLogin
 {
     public class User
     {
+
+        public int UserId { get; set; }
+
         public string userName { get; set; }
         public string password { get; set; }
         public string facNumber { get; set; }
         public int role { get; set; }
-        public DateTime created;
-        public DateTime isActive { get; set; }
+        public DateTime? created { get; set; }
+        public DateTime? isActive { get; set; }
 
         public User(string userName, string password, string facNumber, int role, DateTime created, DateTime isActive)
         {
