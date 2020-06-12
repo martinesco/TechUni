@@ -26,6 +26,7 @@ namespace UserLogin
             this._username = _username;
             this._password = _password;
             this._actionOnError = _actionOnError;
+            _userUsername = _username;
         }
 
         public bool ValidateUserInput(ref User user)
@@ -59,7 +60,7 @@ namespace UserLogin
                 currentUserRole = UserRoles.ANONYMOUS;
                 return false;
             }
-////////////////////////////////////////////////////////////////////////////////////
+
             user = UserData.IsUserPassCorrect(_username, _password);
 
             if (user==null){
@@ -69,7 +70,7 @@ namespace UserLogin
                 currentUserRole = UserRoles.ANONYMOUS;
                 return false;
             }
-//////////////////////////////////////////////////////////////////////////////////////////////
+
             currentUserRole = (UserRoles) user.role;
             currentUserUsername = (string) user.userName;
             

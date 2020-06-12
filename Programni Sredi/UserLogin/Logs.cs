@@ -19,23 +19,21 @@ namespace UserLogin
 
         public string userName { get; set; }
 
-        public UserRoles role { get; set; }
 
 
         public Logs()
         {
 
         }
-        public Logs(string username, UserRoles role, string activity)
+        public Logs(string username, string logs)
         {
             date = DateTime.Now;
             userName = username;
-            role = role;
-            activity = activity;
+            activity = logs;
         }
         public override string ToString()
         {
-            return date + " " + userName + " " + role + " " + activity + "\r\n";
+            return date + " " + userName + " " + activity + "\r\n";
         }
     }
 }

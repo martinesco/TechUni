@@ -32,7 +32,9 @@ namespace StudentInfoSystem
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            //   UserLogin.UserData.ResetTestUserData();
+            //StudentData.resetStudents();
+            UserLogin.UserData.ResetTestUserData();
+            
 
             LoginValidation loginValidation = new LoginValidation(txtUsername.Text, txtPassword.Password, printError);
 
@@ -52,6 +54,7 @@ namespace StudentInfoSystem
             }
             else
             {
+                Logger.LogActivity("Unsuccessful Login");
                 MessageBox.Show("Neshto nevalidno vavede ti!");
                 TextBox usernameBox = txtUsername;
                 usernameBox.Clear();

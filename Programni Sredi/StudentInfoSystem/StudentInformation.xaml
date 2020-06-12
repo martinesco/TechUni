@@ -1,0 +1,571 @@
+﻿<Window x:Class="StudentInfoSystem.StudentInformation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentInfoSystem"
+        mc:Ignorable="d"
+        Title="Информация за студента" Height="600" Width="1300">
+
+    <ScrollViewer>
+    <Grid>
+
+        <StackPanel>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#D6C58D" Grid.Row="0" Grid.Column="0" >
+                    <Label x:Name="labelSubject" Content="Дисциплина" HorizontalAlignment="Center"/>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#D6C58D" Grid.Row="0" Grid.Column="1" >
+                    <Label x:Name="labelTeacher" Content="Преподавател" HorizontalAlignment="Center"/>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#D6C58D" Grid.Row="0" Grid.Column="2">
+                    <Label x:Name="labelEvaluation" Content="Форма на контрол" HorizontalAlignment="Center"/>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#D6C58D" Grid.Row="0" Grid.Column="3">
+                    <Label x:Name="labelMark" Content="Оценка" HorizontalAlignment="Center"/>
+                </Border>
+            </Grid>
+            
+
+            <DockPanel >
+                <Border BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top" Background="AliceBlue">
+                    <Label x:Name="semester1"  Content="Семестър 1" HorizontalContentAlignment="Center" />
+                </Border>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="0">
+                        <Label  x:Name="subject1" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="0">
+                        <Label x:Name="subject2" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="0">
+                        <Label x:Name="subject3" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="0">
+                        <Label x:Name="subject4" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="0">
+                        <Label x:Name="subject5" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="0">
+                        <Label x:Name="subject6" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="0">
+                        <Label x:Name="subject7" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="0">
+                        <Label x:Name="subject8" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="8" Grid.Column="0">
+                        <Label x:Name="subject9" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="1">
+                        <Label  x:Name="teacher1" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1">
+                        <Label x:Name="teacher2" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="1">
+                        <Label x:Name="teacher3" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="1">
+                        <Label x:Name="teacher4" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="1">
+                        <Label x:Name="teacher5" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="1">
+                        <Label x:Name="teacher6" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="1">
+                        <Label x:Name="teacher7" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="1">
+                        <Label x:Name="teacher8" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="8" Grid.Column="1">
+                        <Label x:Name="teacher9" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="2">
+                        <Label  x:Name="evaluation1" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="2">
+                        <Label x:Name="evaluation2" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="2">
+                        <Label x:Name="evaluation3" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="2">
+                        <Label x:Name="evaluation4" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="2">
+                        <Label x:Name="evaluation5" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="2">
+                        <Label x:Name="evaluation6" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="2">
+                        <Label x:Name="evaluation7" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="2">
+                        <Label x:Name="evaluation8" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="8" Grid.Column="2">
+                        <Label x:Name="evaluation9" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="3">
+                        <Label  x:Name="mark1" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="3">
+                        <Label x:Name="mark2" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="3">
+                        <Label x:Name="mark3" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="3">
+                        <Label x:Name="mark4" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="3">
+                        <Label x:Name="mark5" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="3">
+                        <Label x:Name="mark6" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="3">
+                        <Label x:Name="mark7" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="3">
+                        <Label x:Name="mark8" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="8" Grid.Column="3">
+                        <Label x:Name="mark9" HorizontalAlignment="Left"/>
+                    </Border>
+                </Grid>
+            </DockPanel>
+
+
+            <DockPanel >
+                <Border BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top" Background="AliceBlue">
+                    <Label x:Name="semester2"  Content="Семестър 2" HorizontalContentAlignment="Center"/>
+                </Border>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="0">
+                        <Label x:Name="subject10" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="0">
+                        <Label x:Name="subject11" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="0">
+                        <Label x:Name="subject12" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="0">
+                        <Label x:Name="subject13" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="0">
+                        <Label x:Name="subject14" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="0">
+                        <Label x:Name="subject15" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="0">
+                        <Label x:Name="subject16" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="0">
+                        <Label x:Name="subject17" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="8" Grid.Column="0">
+                        <Label x:Name="subject18" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="9" Grid.Column="0">
+                        <Label x:Name="subject19" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="1">
+                        <Label x:Name="teacher10" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1">
+                        <Label x:Name="teacher11" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="1">
+                        <Label x:Name="teacher12" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="1">
+                        <Label x:Name="teacher13" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="1">
+                        <Label x:Name="teacher14" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="1">
+                        <Label x:Name="teacher15" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="1">
+                        <Label x:Name="teacher16" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="1">
+                        <Label x:Name="teacher17" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="8" Grid.Column="1">
+                        <Label x:Name="teacher18" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="9" Grid.Column="1">
+                        <Label x:Name="teacher19" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="2">
+                        <Label  x:Name="evaluation10" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="2">
+                        <Label x:Name="evaluation11" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="2">
+                        <Label x:Name="evaluation12" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="2">
+                        <Label x:Name="evaluation13" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="2">
+                        <Label x:Name="evaluation14" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="2">
+                        <Label x:Name="evaluation15" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="2">
+                        <Label x:Name="evaluation16" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="2">
+                        <Label x:Name="evaluation17" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="8" Grid.Column="2">
+                        <Label x:Name="evaluation18" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="9" Grid.Column="2">
+                        <Label x:Name="evaluation19" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="3">
+                        <Label  x:Name="mark10" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="3">
+                        <Label x:Name="mark11" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="3">
+                        <Label x:Name="mark12" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="3">
+                        <Label x:Name="mark13" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="3">
+                        <Label x:Name="mark14" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="3">
+                        <Label x:Name="mark15" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="3">
+                        <Label x:Name="mark16" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="3">
+                        <Label x:Name="mark17" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="8" Grid.Column="3">
+                        <Label x:Name="mark18" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="9" Grid.Column="3">
+                        <Label x:Name="mark19" HorizontalAlignment="Left"/>
+                    </Border>
+                </Grid>
+            </DockPanel>
+
+            
+            <DockPanel >
+                <Border BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top" Background="AliceBlue">
+                    <Label x:Name="semester3"  Content="Семестър 3" HorizontalContentAlignment="Center" />
+                </Border>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="0">
+                        <Label  x:Name="subject20" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="0">
+                        <Label x:Name="subject21" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="0">
+                        <Label x:Name="subject22" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="0">
+                        <Label x:Name="subject23" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="0">
+                        <Label x:Name="subject24" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="0">
+                        <Label x:Name="subject25" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="0">
+                        <Label x:Name="subject26" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="1">
+                        <Label  x:Name="teacher20" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1">
+                        <Label x:Name="teacher21" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="1">
+                        <Label x:Name="teacher22" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="1">
+                        <Label x:Name="teacher23" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="1">
+                        <Label x:Name="teacher24" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="1">
+                        <Label x:Name="teacher25" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="1">
+                        <Label x:Name="teacher26" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="2">
+                        <Label  x:Name="evaluation20" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="2">
+                        <Label x:Name="evaluation21" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="2">
+                        <Label x:Name="evaluation22" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="2">
+                        <Label x:Name="evaluation23" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="2">
+                        <Label x:Name="evaluation24" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="2">
+                        <Label x:Name="evaluation25" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="2">
+                        <Label x:Name="evaluation26" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="3">
+                        <Label  x:Name="mark20" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="3">
+                        <Label x:Name="mark21" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="3">
+                        <Label x:Name="mark22" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="3">
+                        <Label x:Name="mark23" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="3">
+                        <Label x:Name="mark24" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="3">
+                        <Label x:Name="mark25" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="3">
+                        <Label x:Name="mark26" HorizontalAlignment="Left"/>
+                    </Border>
+                </Grid>
+            </DockPanel>
+
+            
+            <DockPanel >
+                <Border BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top" Background="AliceBlue">
+                    <Label x:Name="semester4"  Content="Семестър 4" HorizontalContentAlignment="Center" />
+                </Border>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="0">
+                        <Label  x:Name="subject27" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="0">
+                        <Label x:Name="subject28" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="0">
+                        <Label x:Name="subject29" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="0">
+                        <Label x:Name="subject30" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="0">
+                        <Label x:Name="subject31" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="0">
+                        <Label x:Name="subject32" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="0">
+                        <Label x:Name="subject33" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="0">
+                        <Label x:Name="subject34" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="1">
+                        <Label  x:Name="teacher27" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1">
+                        <Label x:Name="teacher28" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="1">
+                        <Label x:Name="teacher29" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="1">
+                        <Label x:Name="teacher30" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="1">
+                        <Label x:Name="teacher31" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="1">
+                        <Label x:Name="teacher32" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="1">
+                        <Label x:Name="teacher33" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="1">
+                        <Label x:Name="teacher34" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="2">
+                        <Label  x:Name="evaluation27" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="2">
+                        <Label x:Name="evaluation28" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="2">
+                        <Label x:Name="evaluation29" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="2">
+                        <Label x:Name="evaluation30" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="2">
+                        <Label x:Name="evaluation31" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="2">
+                        <Label x:Name="evaluation32" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="2">
+                        <Label x:Name="evaluation33" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="2">
+                        <Label x:Name="evaluation34" HorizontalAlignment="Left"/>
+                    </Border>
+
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="3">
+                        <Label  x:Name="mark27" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="3">
+                        <Label x:Name="mark28" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="3">
+                        <Label x:Name="mark29" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="3">
+                        <Label x:Name="mark30" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="4" Grid.Column="3">
+                        <Label x:Name="mark31" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="5" Grid.Column="3">
+                        <Label x:Name="mark32" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="6" Grid.Column="3">
+                        <Label x:Name="mark33" HorizontalAlignment="Left"/>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Row="7" Grid.Column="3">
+                        <Label x:Name="mark34" HorizontalAlignment="Left"/>
+                    </Border>
+                </Grid>
+            </DockPanel>
+
+
+        </StackPanel>
+
+    </Grid>
+    </ScrollViewer>
+</Window>

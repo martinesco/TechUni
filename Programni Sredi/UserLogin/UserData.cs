@@ -31,7 +31,7 @@ namespace UserLogin
 
         //private static User _testUser;
 
-        private static void ResetTestUserData()
+        public static void ResetTestUserData()
         {
             if (TestUsersIfEmpty())
             {

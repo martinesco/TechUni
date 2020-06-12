@@ -77,5 +77,6 @@
             </Grid>
         </GroupBox>
         <Button x:Name="isEmptyStudentsBtn" Content="IsEmpty" HorizontalAlignment="Left" Margin="538,0,0,333" VerticalAlignment="Bottom" Width="65" Height="20" Click="isEmptyStudentsBtn_Click" />
+        <Button x:Name="marksBtn" Content="Провери оценките" HorizontalAlignment="Left" Height="20" Margin="627,0,0,333" VerticalAlignment="Bottom" Width="122" Click="marksBtn_Click"/>
     </Grid>
 </Window>

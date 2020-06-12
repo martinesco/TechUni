@@ -8,6 +8,8 @@ namespace UserLogin
 {
     public static class Logger
     {
+
+        private static LogsContext logsContext = new LogsContext();
         private static List<string> currentSessionActivities = new List<string>();
 
         public static void LogActivity(string activity)
@@ -27,6 +29,10 @@ namespace UserLogin
             {
                 File.AppendAllText("log.txt", activityLine);
             }
+
+            logsContext.Logs.Add(new Logs(LoginValidation.currentUserUsername, activity));
+            logsContext.SaveChanges();
+
         }
 
         public static void GetCurrentSessionActivities()

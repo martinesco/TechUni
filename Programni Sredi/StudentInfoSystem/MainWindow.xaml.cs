@@ -22,12 +22,6 @@ namespace StudentInfoSystem
             context = new StudentInfoContext();
         }
 
-      
-        private void txtStatus_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
-        {
-
-        }
-
         public List<string> StudStatusChoices { get; set; }
 
         private void FillStudStatusChoices()
@@ -93,7 +87,16 @@ namespace StudentInfoSystem
             context.SaveChanges();
         }
 
+        private void marksBtn_Click(object sender, RoutedEventArgs e)
+        {
 
+            Student student = ((MainWindowVM)DataContext).Student;
+            StudentInformation studentInformation = new StudentInformation();
 
+            StudentInformationVM siVM = new StudentInformationVM(student, studentInformation);
+
+            studentInformation.DataContext = siVM;
+            studentInformation.ShowDialog();
+        }
     }
 }

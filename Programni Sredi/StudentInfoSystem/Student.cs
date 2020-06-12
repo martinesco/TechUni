@@ -1,12 +1,12 @@
-﻿using UserLogin;
+﻿using System.Collections.Generic;
+using UserLogin;
 
 
 namespace StudentInfoSystem
 {
     public class Student
     {
-
-        public int StudentId { get; set; }
+        public int studentId { get; set; }
         public string firstName { get; set; }
         public string surName { get; set; }
         public string lastName { get; set; }
@@ -18,6 +18,7 @@ namespace StudentInfoSystem
         public int course { get; set; }
         public int potok { get; set; }
         public int group { get; set; }
+   
 
 
         public Student() { }
@@ -36,8 +37,6 @@ namespace StudentInfoSystem
             this.potok = potok;
             this.group = group;
         }
-
-
     }
 
 }

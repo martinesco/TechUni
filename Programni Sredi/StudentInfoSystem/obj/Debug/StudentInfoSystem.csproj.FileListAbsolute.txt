@@ -64,3 +64,5 @@ E:\PS\PS_38_Martin\StudentInfoSystem\bin\Debug\System.Memory.xml
 E:\PS\PS_38_Martin\StudentInfoSystem\bin\Debug\System.Numerics.Vectors.xml
 E:\PS\PS_38_Martin\StudentInfoSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\PS\PS_38_Martin\StudentInfoSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\PS\PS_38_Martin\StudentInfoSystem\obj\Debug\StudentInformation.g.cs
+E:\PS\PS_38_Martin\StudentInfoSystem\obj\Debug\StudentInformation.baml
