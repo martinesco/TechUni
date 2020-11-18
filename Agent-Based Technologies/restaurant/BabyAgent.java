@@ -1,5 +1,3 @@
-package restaurant.agent;
-
 import jade.core.Agent;
 import restaurant.meal.CookRecipe;
 import restaurant.meal.Ingredient;
@@ -24,12 +22,20 @@ public class BabyAgent extends Agent {
     }
 
     private void serve(String name) {
-        for (CookRecipe meal : meals) {
-            if (meal.getName().equalsIgnoreCase(name)) {
-                System.out.println(meal.toString());
+        CookRecipe recipeTemp = null;
+        int counter = 0;
+        for (CookRecipe obj : meals) {
+            if (obj.getName().equalsIgnoreCase(name)) {
+                recipeTemp = obj;
+                System.out.println(recipeTemp);
+                counter++;
+            }
+            if (counter == 0) {
+                System.out.println("Meal not found!");
             }
         }
     }
+
 
     private void cookWithPleasure() {
         CookRecipe recipe1 = new CookRecipe("Proletna riba");
