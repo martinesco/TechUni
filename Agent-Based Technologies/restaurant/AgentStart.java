@@ -1,5 +1,4 @@
 import jade.core.Agent;
-import jade.core.behaviours.SimpleBehaviour;
 import jade.wrapper.AgentController;
 import jade.wrapper.ContainerController;
 import jade.wrapper.StaleProxyException;
@@ -8,39 +7,29 @@ import java.util.Scanner;
 
 public class AgentStart extends Agent {
 
-    protected void setup() {
-        addBehaviour(new MyBehaviour());
-    }
+    public void setup() {
+        System.out.println("My local name is " + getLocalName());
+        System.out.println("Enter meal name:");
+        Scanner scanner = new Scanner(System.in);
+        String mealName = scanner.nextLine();
 
-    private class MyBehaviour extends SimpleBehaviour{
+        Object[] arguments = {mealName};
+        ContainerController c = getContainerController();
 
-        private boolean finished = true;
+        String someName = "Mike";
+        String chefName = "Uti Bachvarov";
 
-        @Override
-        public void action() {
-            System.out.println("My local name is " + getLocalName());
-            System.out.println("Enter meal name:");
-            Scanner scanner = new Scanner(System.in);
-            String mealName = scanner.nextLine();
+        try {
+            AgentController orange = c.createNewAgent(someName, "OrangeAgent", arguments);
+            orange.start();
 
-            Object[] arguments = {mealName};
-            ContainerController c = getContainerController();
-            String chefName = "Uti Bachvarov";
+            AgentController a = c.createNewAgent(chefName, "BabyAgent", null);
+            a.start();
 
-            AgentController a = null;
-            try {
-                a = c.createNewAgent(chefName, "BabyAgent", arguments);
-                a.start();
-            } catch (StaleProxyException e) {
-                e.printStackTrace();
-            }
-            doDelete();
+        } catch (StaleProxyException e) {
+            e.printStackTrace();
         }
-
-        @Override
-        public boolean done() {
-            return finished;
-        }
+        doDelete();
     }
 
 }

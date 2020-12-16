@@ -12,7 +12,7 @@ public class CyclicAgent extends Agent {
         addBehaviour(new MyNewBehaviour(this));
     }
 
-     class MyNewBehaviour extends CyclicBehaviour {
+    class MyNewBehaviour extends CyclicBehaviour {
         private boolean finished = true;
         private int count = 0;
 
