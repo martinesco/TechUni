@@ -3,7 +3,7 @@
     <CLASSES />
     <JAVADOC />
     <NATIVE>
-      <root url="file://E:/lib/natives" />
+      <root url="file://$PROJECT_DIR$/../../Java libs/computerGraphics/natives" />
     </NATIVE>
     <SOURCES />
   </library>

@@ -19,9 +19,9 @@ import java.util.List;
 
 public class Loader {
 
-    private List<Integer> vaos = new ArrayList<>();
-    private List<Integer> vbos = new ArrayList<>();
-    private List<Integer> textures = new ArrayList<>();
+    private static List<Integer> vaos = new ArrayList<>();
+    private static List<Integer> vbos = new ArrayList<>();
+    private static List<Integer> textures = new ArrayList<>();
 
     public RawModel loadToVAO(float[] positions, float[] textureCoords, int[] indices) {
         int vaoID = createVAO();

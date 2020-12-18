@@ -1,9 +1,18 @@
 package shaders;
 
+import entities.Camera;
+import utilities.Mathematic;
+import org.lwjgl.util.vector.Matrix4f;
+
 public class StaticShader extends ShaderProgram {
 
-    private static final String VERTEX_FILE = "E:\\Java OOP\\GameEngine\\src\\shaders\\vertexShader.txt";
-    private static final String FRAGMENT_FILE = "E:\\Java OOP\\GameEngine\\src\\shaders\\fragmentShader.txt";
+    private static final String VERTEX_FILE = "E:\\Java\\GameEngine\\src\\shaders\\vertexShader.txt";
+    private static final String FRAGMENT_FILE = "E:\\Java\\GameEngine\\src\\shaders\\fragmentShader.txt";
+
+    private int locationOfTransformationMatrix;
+    private int locationOfProjectionMatrix;
+    private int locationOfViewMatrix;
+
 
     public StaticShader() {
         super(VERTEX_FILE, FRAGMENT_FILE);
@@ -13,6 +22,27 @@ public class StaticShader extends ShaderProgram {
     protected void bindAttributes() {
         super.bindAttribute(0, "position");
         super.bindAttribute(1, "textureCoords");
+    }
+
+    @Override
+    protected void getAllUniformLocations() {
+        locationOfTransformationMatrix= super.getUniformLocation("transformationMatrix");
+        locationOfProjectionMatrix = super.getUniformLocation("projectionMatrix");
+        locationOfViewMatrix = super.getUniformLocation("viewMatrix");
+    }
+
+
+    public void loadTransformationMatrix(Matrix4f matrix) {
+        super.loadMatrix(locationOfTransformationMatrix, matrix);
+    }
+
+    public void loadProjectionMatrix(Matrix4f projectionMatrix) {
+        super.loadMatrix(locationOfProjectionMatrix, projectionMatrix);
+    }
+
+    public void loadViewMatrix(Camera camera) {
+        Matrix4f matrix = Mathematic.createViewMatrix(camera);
+        super.loadMatrix(locationOfViewMatrix, matrix);
     }
 
 
