@@ -1,16 +1,26 @@
 #version 400 core
 
-in vec3 position;
 in vec2 textureCoords;
+in vec3 position;
+in vec3 normal;
 
 out vec2 textureCoordsOut;
+out vec3 surfaceNormal;
+out vec3 toLightVector;
 
+uniform vec3 lightPosition;
 uniform mat4 transformationMatrix;
 uniform mat4 projectionMatrix;
 uniform mat4 viewMatrix;
 
 void main(void){
-	gl_Position = projectionMatrix * transformationMatrix * viewMatrix * vec4(position , 1.0);
+    vec4 worldPosition = transformationMatrix * vec4(position,1.0);
+
+	gl_Position = projectionMatrix * transformationMatrix * viewMatrix * vec4(position , 1.0); //TODO think about it
 
 	textureCoordsOut = vec2(textureCoords); //linealy interpoladed
+
+	surfaceNormal = (transformationMatrix * vec4(normal,0.0)).xyz;
+
+	toLightVector = lightPosition - worldPosition.xyz;
 }

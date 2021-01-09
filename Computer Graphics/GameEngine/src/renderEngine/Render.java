@@ -34,6 +34,8 @@ public class Render {
         GL30.glBindVertexArray(rawModel.getVaoID());
         GL20.glEnableVertexAttribArray(0);
         GL20.glEnableVertexAttribArray(1);
+        GL20.glEnableVertexAttribArray(2);
+
 
         Matrix4f transformationMatrix = Mathematic.createTransformation(entity.getPosition(),
                 entity.getRotX(), entity.getRotY(), entity.getRotZ(), entity.getScale());
@@ -45,6 +47,7 @@ public class Render {
 
         GL20.glDisableVertexAttribArray(0);
         GL20.glDisableVertexAttribArray(1);
+        GL20.glDisableVertexAttribArray(2);
         GL30.glBindVertexArray(0);
         GL30.glBindVertexArray(1);
 

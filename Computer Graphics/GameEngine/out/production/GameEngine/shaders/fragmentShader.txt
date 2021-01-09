@@ -1,11 +1,22 @@
 #version 400 core
 
 in vec2 textureCoordsOut;
+in vec3 surfaceNormal;
+in vec3 toLightVector;
 
 out vec4 outColor;
 
 uniform sampler2D textureSampler;
+uniform vec3 lightColour;
 
 void main(void){
-	outColor = texture(textureSampler,textureCoordsOut);//gl method that return texture for each pixel
-}
+    vec3 unitNormal = normalize(surfaceNormal); //нормализираме нормалите(големината приравняваме към 1 посоката остава без промяна)
+	vec3 unitLightVector = normalize(toLightVector);
+
+	float nDotl = dot(unitNormal,unitLightVector); //скаларно произведение на двата вектора
+	float brightness = max(nDotl, 0.0); // ако произведението е по-малко от 0 го приравняваме на 0
+	vec3 diffuse = brightness * lightColour;
+
+	outColor = vec4(diffuse,1.0)* texture(textureSampler,textureCoordsOut);
+
+	}
